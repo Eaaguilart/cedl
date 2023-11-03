@@ -1,0 +1,9 @@
+CUDA_VISIBLE_DEVICES=2 torchrun --nproc_per_node=1 inference.py --episode 0 --num_bases 10 --increment 10
+CUDA_VISIBLE_DEVICES=2 torchrun --nproc_per_node=1 inference.py --episode 1 --num_bases 10 --increment 10
+CUDA_VISIBLE_DEVICES=2 torchrun --nproc_per_node=1 inference.py --episode 2 --num_bases 10 --increment 10
+CUDA_VISIBLE_DEVICES=2 torchrun --nproc_per_node=1 inference.py --episode 3 --num_bases 10 --increment 10
+CUDA_VISIBLE_DEVICES=2 torchrun --nproc_per_node=1 inference.py --episode 4 --num_bases 10 --increment 10
+CUDA_VISIBLE_DEVICES=2 torchrun --nproc_per_node=1 inference.py --episode 5 --num_bases 10 --increment 10
+CUDA_VISIBLE_DEVICES=2 torchrun --nproc_per_node=1 inference.py --episode 6 --num_bases 10 --increment 10
+CUDA_VISIBLE_DEVICES=2 torchrun --nproc_per_node=1 inference.py --episode 7 --num_bases 10 --increment 10
+CUDA_VISIBLE_DEVICES=2 torchrun --nproc_per_node=1 inference.py --episode 8 --num_bases 10 --increment 10
